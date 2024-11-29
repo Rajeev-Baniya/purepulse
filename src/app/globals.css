@@ -2,20 +2,171 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-black_extra text-white;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+.main_container {
+  @apply container py-[5.6rem] mx-auto md:px-0 px-8;
+}
+
+.nav-padding {
+  padding: 2rem 8rem;
+}
+
+.hero-content-padding {
+  padding: 0rem 8rem;
+}
+.common-padding {
+  padding: 12rem 9rem;
+}
+
+.title {
+  font-size: 3.6rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.common-padding_small {
+  padding: 8rem 9rem;
+}
+
+.header {
+  color: #ddd;
+}
+
+.logo {
+  font-style: italic;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.header a,
+.header li {
+  @apply font-semibold text-white;
+}
+
+.header li {
+  @apply mb-2;
+}
+
+.header li:hover {
+  @apply border-b-2 border-primary mb-0 transition-all duration-150 ease-out;
+}
+
+.active {
+  @apply border-b-2 !mb-0 border-primary;
+}
+
+.slider_nav {
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.slider:hover .slider_nav {
+  opacity: 1;
+}
+
+.slider_nav button {
+  background-color: rgba(15, 15, 15, 0.4);
+  padding: 1.2rem 1rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+.show {
+  display: flex !important;
+}
+
+hr.hr-short {
+  @apply border-t-[7px] border-primary;
+  position: relative;
+  max-width: 45px;
+  margin: 2.4rem auto 0;
+  /* border-top: 6px solid #08c1b8; */
+  text-align: left;
+  border-radius: 10rem;
+}
+
+.swiper-pagination-bullet {
+  @apply !bg-primary;
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 62%;
+  }
+
+  .nav-padding {
+    padding: 2rem 5rem;
+  }
+
+  .common-padding {
+    padding: 8rem 5rem;
+  }
+
+  .common-padding_small {
+    padding: 6rem 5rem;
+  }
+
+  .hero-content-padding {
+    padding: 0rem 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 58%;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-padding {
+    padding: 2rem 3rem;
+  }
+
+  .common-padding {
+    padding: 8rem 3rem;
+  }
+
+  .common-padding_small {
+    padding: 6rem 3rem;
+  }
+
+  .hero-content-padding {
+    padding: 0rem 3rem;
+  }
+
+  .gallery_each:hover .gallery_each-text {
+    @apply opacity-100;
+    cursor: pointer;
+  }
+
+  .gallery_each-text {
+    @apply opacity-100 bg-[#0909094d];
+    /* background-color: rgba(247, 80, 35, 0.6); */
+  }
 }
