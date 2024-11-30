@@ -9,21 +9,21 @@ export default function Quality() {
                         <FcInspection className="text-[3.2rem]" />
                     </div>
                     <h1 className="font-semibold text-[2.4rem]">100% Organic</h1>
-                    <p className="px-3 text-grey">Lorem , dolor sit amet. Officia repellendus beatae tempora similique, sed reiciendis magnam. Numquam soluta tenetur unde?</p>
+                    <p className="px-3 text-grey">Pure Pulse is 100% organic. It is manufactured without using any chemicals.</p>
                 </div>
                 <div className="text-center flex flex-col items-center gap-[2.4rem]">
                     <div className="h-[6rem] w-[6rem] border border-secondary rounded-[50%] flex justify-center items-center">
                         <FcBullish className="text-[3.2rem]" />
                     </div>
                     <h1 className="font-semibold text-[2.4rem]">20+ Health Benefits</h1>
-                    <p className="px-3 text-grey">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia repellendus beatae tempora similique, sed reiciendis magnam. Numquam soluta tenetur unde?</p>
+                    <p className="px-3 text-grey">Pure Pulse is proven to have more than 20 health benefits.</p>
                 </div>
                 <div className="text-center flex flex-col items-center gap-[2.4rem]">
                     <div className="h-[6rem] w-[6rem] border border-tertiary rounded-[50%] flex justify-center items-center">
                         <FcPaid className="text-[3.2rem]" />
                     </div>
                     <h1 className="font-semibold text-[2.4rem]">Affordable Price</h1>
-                    <p className="px-3 text-grey">Lorem ipsum, dolor sit amet  adipisicing elit. Officia repellendus beatae , sed reiciendis magnam. Numquam soluta tenetur unde?</p>
+                    <p className="px-3 text-grey">Despite having many health advantages, It has a affordable price.</p>
                 </div>
             </section>
         </div>

@@ -108,6 +108,10 @@ hr.hr-short {
   @apply !bg-primary;
 }
 
+li::marker {
+  color: #4d8c40 !important;
+}
+
 @media screen and (max-width: 1024px) {
   html {
     font-size: 62%;
