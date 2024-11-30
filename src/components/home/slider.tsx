@@ -35,7 +35,7 @@ export default function Slider() {
                             <div className='mx-8 w-full'>
                                 <h1 className='font-extrabold lg:text-[6.4rem] mb-[1.2rem] text-[4.8rem]'>Pure Pulse</h1>
                                 <p className='font-extrabold md:text-[2.4rem] text-[2rem] mb-[2.4rem]'>Power your life<strong> Naturally</strong></p>
-                                <p className='lg:w-[60%] w-[80%] mb-[3.6rem]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod atque qui impedit inventore, nisi facere quis maxime sequi voluptate unde! nisi facere quis maxime sequi voluptate unde!</p>
+                                <p className='lg:w-[60%] w-[80%] mb-[3.6rem]'>Pure pulse is a premium dietary supplement crafted from a potent blend of nature&apos;s most revered herbs, including Yarsagumba, Shilajit, Ashwagandha, and Rhodiola Rosea. These herbs are known for their powerful adaptogenic, rejuvenating, and energy-boosting properties, offering a holistic approach to support your body&apos;s natural balance, vitality, and overall well-being.</p>
                                 <div className='flex gap-10 items-center'>
                                     <Link href="/contact">
                                         <Button varient='secondary'>Buy Now</Button>
@@ -58,7 +58,7 @@ export default function Slider() {
                             <div className='mx-8 w-full'>
                                 <h1 className='font-extrabold lg:text-[6.4rem] mb-[1.2rem] text-[4.8rem]'>100% Organic</h1>
                                 <p className='font-extrabold md:text-[2.4rem] text-[2rem] mb-[2.4rem]'>Ingridients like Yarsagumba & Shilajit makes it healthy.</p>
-                                <p className='lg:w-[60%] w-[80%] mb-[3.6rem]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod atque qui impedit inventore, nisi facere quis maxime sequi voluptate unde! nisi facere quis maxime sequi voluptate unde!</p>
+                                <p className='lg:w-[60%] w-[80%] mb-[3.6rem]'>Each capsule is uniquely formulated to deliver maximum benefits through a liquid-filled design, ensuring faster absorption and more effective delivery of active ingredients. The outer oval-shaped capsule features a vibrant orange color, representing the natural potency inside. Inside, the oil-like consistency holds a concentrated blend of herbal extracts, providing you with a potent and bioavailable form of these traditional botanicals.</p>
                                 <div className='flex gap-10 items-center'>
                                     <Link href="/contact">
                                         <Button varient='secondary'>Contact Us</Button>
@@ -82,7 +82,7 @@ export default function Slider() {
                             <div className='mx-8 w-full'>
                                 <h1 className='font-extrabold lg:text-[6.4rem] mb-[1.2rem] text-[4.8rem]'>20+ Health Benefits</h1>
                                 <p className='font-extrabold md:text-[2.4rem] text-[2rem] mb-[2.4rem]'>Boost your energy level instantly.</p>
-                                <p className='lg:w-[60%] w-[80%] mb-[3.6rem]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod atque qui impedit inventore, nisi facere quis maxime sequi voluptate unde! nisi facere quis maxime sequi voluptate unde!</p>
+                                <p className='lg:w-[60%] w-[80%] mb-[3.6rem]'>Pure pulse is a premium dietary supplement crafted from a potent blend of nature&apos;s most revered herbs, including Yarsagumba, Shilajit, Ashwagandha, and Rhodiola Rosea. These herbs are known for their powerful adaptogenic, rejuvenating, and energy-boosting properties, offering a holistic approach to support your body&apos;s natural balance, vitality, and overall well-being.</p>
                                 <div className='flex gap-10 items-center'>
                                     <Link href="/contact">
                                         <Button varient='secondary'>Order Now</Button>
