@@ -56,7 +56,9 @@ export default function PricingList() {
                             {each?.discount ? <p className="absolute bottom-5 right-5 bg-primary rounded-[2rem] px-3 py-1">{each?.discount} off</p> : <></>}
                         </div>
                         <div className={`px-6 py-8 ${each.active ? 'bg-black_third' : ' bg-black_forth'} text-center rounded-b-[1rem] lg:mb-0 !mb-[4rem]`}>
-                            <p className="mb-8 text-5xl font-bold"><sup className="text-3xl">&#8361;</sup> {each?.discountedPrice ? <> <span>{each.discountedPrice} </span> <span className="line-through text-4xl text-grey">{each.price}</span> </> : each.price}</p>
+                            <p className="mb-8 text-5xl font-bold">
+                                {/* <sup className="text-3xl">&#8361;</sup> */}
+                                {each?.discountedPrice ? <> <span>{each.discountedPrice} </span> <span className="line-through text-4xl text-grey">{each.price}</span> </> : each.price} <span className="text-3xl">KRW</span> </p>
                             <p className="text-grey text-[1.4rem] mb-[3rem]">{each.description}</p>
                             <Button varient={`${each.active ? 'primary' : 'secondary'}`} className={"mb-[2rem]"}>Buy Now</Button>
                             <br />

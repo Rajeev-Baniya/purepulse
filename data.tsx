@@ -12,7 +12,7 @@ export const pricing = [
         discount: "",
         discountedPrice: "",
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'Key Selling Points: Advanced formulation, premium ingredients, and superior results.',
         active: false,
         icon: FaUmbrella,
     },
@@ -24,7 +24,7 @@ export const pricing = [
         price: '30,000',
 
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'Key Selling Points: Affordable access to core Pure Pulse benefits without compromising quality.',
         active: true,
         icon: FaTree,
     },
@@ -35,7 +35,7 @@ export const pricing = [
             '/PowerPulse.jpg',
         price: '40,000',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'Key Selling Points: Infused with herbal ingredients for a holistic approach to wellness.',
         active: false,
         icon: MdDiamond,
     },
@@ -46,7 +46,7 @@ export const pricing = [
             '/PowerPulse.jpg',
         price: '35,000',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'Key Selling Points: High-quality performance with essential benefits with all the necessary nutrients.',
         active: false,
         icon: GiHeartNecklace,
     },
